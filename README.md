@@ -99,10 +99,13 @@ For executing different use case examples:
 cd Diff_Use_Case_Examples
 
 # Executing the Scripts
+# To fetch information about a specific user(s) and their associated posts
 python fetch_users_data.py
 
+# To retrieve comments associated with a specific post
 python fetch_user_todos.py
 
+# To retrieve a list of incomplete tasks (todos) for a specific user(s)
 python fetch_posts_comments.py
 ```
 
