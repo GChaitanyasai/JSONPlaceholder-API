@@ -42,6 +42,14 @@ JSONPlaceholder-API-Project/
 
 ├── README.md
 
+├── Diff_Use_Case_Examples/
+
+├── fetch_users_data
+
+├── fetch_user_todos
+
+├── fetch_posts_comments
+
 └── ...
 
 # Introduction
@@ -84,6 +92,20 @@ cd JSONPlaceholder-API
 # Executing the Project
 python main.py
 ```
+
+For executing different use case examples:
+```bash
+# Move into the project directory
+cd Diff_Use_Case_Examples
+
+# Executing the Scripts
+python fetch_users_data.py
+
+python fetch_user_todos.py
+
+python fetch_posts_comments.py
+```
+
 # Usage
 ## Data Transformations
 The project includes functions for meaningful data transformations, categorizing posts, calculating average engagement metrics, and other innovative transformations. Transformed data is stored in a manner that distinguishes it from the original data.
